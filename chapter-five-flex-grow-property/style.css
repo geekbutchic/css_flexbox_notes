@@ -1,0 +1,37 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #aaa;
+  margin: 0px 50px;
+}
+
+.item {
+  padding: 2rem;
+  border: 5px solid #87b5ff;
+  border-radius: 3px;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #1c57b5;
+}
+
+.container {
+  display: flex;
+  background-color: #f5ca3c;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.item1 {
+  flex-grow: 1;
+}
+.item2 {
+  flex-grow: 2;
+}
+.item3 {
+  flex-grow: 1;
+}
